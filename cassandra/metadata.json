@@ -1,0 +1,29 @@
+{
+  "name": "cassandra",
+  "description": "Installs/Configures Cassandra",
+  "long_description": "Description\n===========\nInstall and configure Cassandra\n\nRequirements\n============\n## Platform\n\nUbuntu, Debian, RedHat, CentOs\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "maintainer": "RADKEVICH",
+  "maintainer_email": "anton@radkevich.info",
+  "license": "All rights reserved",
+  "platforms": {
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.1.0"
+}
