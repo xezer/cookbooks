@@ -21,9 +21,9 @@
 default['java']['remove_deprecated_packages'] = false
 
 # default jdk attributes
-default['java']['install_flavor'] = "oracle_rpm"
+default['java']['install_flavor'] = "openjdk"
 default['java']['jdk_version'] = '7'
-default['java']['arch'] = kernel['machine'] =~ /x86_64/ ? "x86_64" : "x86_64"
+default['java']['arch'] = kernel['machine'] =~ /x86_64/ ? "x86_64" : "i586"
 default['java']['openjdk_packages'] = []
 default['java']['accept_license_agreement'] = false
 
