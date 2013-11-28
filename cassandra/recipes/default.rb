@@ -8,7 +8,7 @@
 #
 
 if !node[:cassandra][:installed]
-  include_recipe "java-latest"
+  include_recipe "java-master"
   include_recipe "cassandra::install"
   
   service "cassandra" do 
