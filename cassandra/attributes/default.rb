@@ -5,7 +5,7 @@
 # Copyright 2013, RADKEVICH
 default[:cassandra][:installed]         = false
 default[:cassandra][:cluster_name]      = 'Test Cluster'
-default[:cassandra][:remote_url]        = 'http://chef.test/files/cassandra/apache-cassandra-1.2.9-bin.tar'
+default[:cassandra][:remote_url]        = 'http://107.20.108.96/files/cassandra/apache-cassandra-1.2.9-bin.tar'
 default[:cassandra][:home_dir]          = '/opt/apache-cassandra'
 default[:cassandra][:log_dir]           = '/var/log/cassandra'
 default[:cassandra][:lib_dir]           = '/var/lib/cassandra'
