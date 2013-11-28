@@ -21,7 +21,7 @@
 default['java']['remove_deprecated_packages'] = false
 
 # default jdk attributes
-default['java']['install_flavor'] = "open_jdk"
+default['java']['install_flavor'] = "oracle"
 default['java']['jdk_version'] = '7'
 default['java']['arch'] = kernel['machine'] =~ /x86_64/ ? "x86_64" : "x86_64"
 default['java']['openjdk_packages'] = []
