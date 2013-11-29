@@ -257,7 +257,7 @@ trickle_fsync_interval_in_kb: 10240
 storage_port: <%= node[:cassandra][:storage_port] %>
 
 # SSL port, for encrypted communication.  Unused unless enabled in
-# encryption_options
+# server_encryption_options
 ssl_storage_port: 7001
 
 # Address to bind to and tell other Cassandra nodes to connect to. You
@@ -557,7 +557,7 @@ index_interval: 128
 # the keystore and truststore.  For instructions on generating these files, see:
 # http://download.oracle.com/javase/6/docs/technotes/guides/security/jsse/JSSERefGuide.html#CreateKeystore
 #
-encryption_options:
+server_encryption_options:
     internode_encryption: none
     keystore: conf/.keystore
     keystore_password: cassandra
